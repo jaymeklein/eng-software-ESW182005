@@ -19,7 +19,7 @@ public class Main {
 
         pedido.efetuarPagamento("crédito", 3);
         // Caso de teste com pagamento inválido (parcelas menores que R$ 20)
-        pedido.efetuarPagamento("crédito", 2);
+        pedido.efetuarPagamento("débito", 1);
 
         // Testando remoção de produto
         pedido.removerProduto(produto1);
